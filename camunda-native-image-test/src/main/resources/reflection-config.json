@@ -1,0 +1,38 @@
+[
+  {
+    "name": "org.camunda.bpm.engine.impl.ProcessEngineLogger",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.camunda.bpm.engine.impl.bpmn.parser.BpmnParseLogger",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.camunda.bpm.engine.impl.bpmn.behavior.BpmnBehaviorLogger",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.camunda.bpm.engine.impl.db.EnginePersistenceLogger",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  }
+]

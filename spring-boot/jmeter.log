@@ -1,0 +1,373 @@
+2020-10-04 18:20:01,758 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-04 18:20:01,807 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2/libexec/bin/user.properties
+2020-10-04 18:20:01,808 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2/libexec/bin/system.properties
+2020-10-04 18:20:01,810 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: Version 5.2
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: java.version=1.8.0_201
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: os.arch=x86_64
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: os.version=10.15.6
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-10-04 18:20:01,811 INFO o.a.j.JMeter: java.awt.headless=null
+2020-10-04 18:20:01,812 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-10-04 18:20:01,812 INFO o.a.j.JMeter: Available Processors =12
+2020-10-04 18:20:01,818 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-04 18:20:01,819 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-04 18:20:01,819 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2/libexec
+2020-10-04 18:20:01,819 INFO o.a.j.JMeter: user.dir  =/Users/zoeller/sources/camunda/camundacon/spring-boot
+2020-10-04 18:20:01,819 INFO o.a.j.JMeter: PWD       =/Users/zoeller/sources/camunda/camundacon/spring-boot
+2020-10-04 18:20:01,824 INFO o.a.j.JMeter: IP: 192.168.178.20 Name: Tims-MBP.fritz.box FullName: tims-mbp.fritz.box
+2020-10-04 18:20:09,410 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-10-04 18:20:09,442 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-10-04 18:20:09,442 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-10-04 18:20:09,567 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-10-04 18:20:12,147 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2020-10-04 18:20:12,658 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_201]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:185) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:5.2]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_201]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_201]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_201]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_201]
+Caused by: java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_201]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 26 more
+2020-10-04 18:20:13,667 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-04 18:20:13,668 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-04 18:20:13,668 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-04 18:20:13,668 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-04 18:20:13,668 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-04 18:20:13,668 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-04 18:20:13,990 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-10-04 18:20:13,991 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.2/libexec/bin/proxyserver.jks
+2020-10-04 18:20:14,164 INFO o.a.j.s.FileServer: Default base='/Users/zoeller/sources/camunda/camundacon/spring-boot'
+2020-10-04 18:20:14,471 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-10-04 18:20:14,471 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-10-04 18:20:14,471 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-10-04 18:20:14,471 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-10-04 18:20:19,138 INFO o.a.j.g.a.Load: Loading file: /Users/zoeller/sources/Camunda JMeter.jmx
+2020-10-04 18:20:19,139 INFO o.a.j.s.FileServer: Set new base='/Users/zoeller/sources'
+2020-10-04 18:20:19,292 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-04 18:20:19,307 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-04 18:20:19,309 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-04 18:20:19,311 INFO o.a.j.s.SaveService: Loading file: /Users/zoeller/sources/Camunda JMeter.jmx
+2020-10-04 18:20:19,428 INFO o.a.j.s.FileServer: Set new base='/Users/zoeller/sources'
+2020-10-04 18:22:48,360 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-04 18:22:48,363 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-04 18:22:48,363 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-04 18:22:48,367 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-10-04 18:22:48,367 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-10-04 18:22:48,721 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-10-04 18:22:49,036 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-04 18:22:49,036 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group JMeter Users.
+2020-10-04 18:22:49,036 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-04 18:22:49,036 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2020-10-04 18:22:49,041 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-04 18:22:49,049 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-04 18:22:49,049 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-04 18:22:49,062 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Tims-MBP.fritz.box
+2020-10-04 18:22:49,069 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-10-04 18:22:49,087 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-04 18:22:49,137 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-04 18:22:49,188 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-04 18:22:49,238 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-04 18:22:49,288 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-04 18:22:49,338 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-04 18:22:49,388 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-04 18:22:49,437 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-04 18:22:49,488 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-04 18:22:49,537 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-11
+2020-10-04 18:22:49,586 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-12
+2020-10-04 18:22:49,640 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-13
+2020-10-04 18:22:49,688 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-14
+2020-10-04 18:22:49,736 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-15
+2020-10-04 18:22:49,787 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-16
+2020-10-04 18:22:49,837 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-17
+2020-10-04 18:22:49,887 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-18
+2020-10-04 18:22:49,937 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-19
+2020-10-04 18:22:49,988 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-20
+2020-10-04 18:22:57,996 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-17
+2020-10-04 18:22:57,996 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-17
+2020-10-04 18:22:58,005 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-6
+2020-10-04 18:22:58,006 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-04 18:22:58,092 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-20
+2020-10-04 18:22:58,092 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-20
+2020-10-04 18:22:58,113 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-5
+2020-10-04 18:22:58,114 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-04 18:22:58,118 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-19
+2020-10-04 18:22:58,119 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-19
+2020-10-04 18:22:58,142 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-4
+2020-10-04 18:22:58,142 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-04 18:22:58,145 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-13
+2020-10-04 18:22:58,146 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-13
+2020-10-04 18:22:58,151 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-8
+2020-10-04 18:22:58,152 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-04 18:22:58,168 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-14
+2020-10-04 18:22:58,168 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-14
+2020-10-04 18:22:58,205 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-18
+2020-10-04 18:22:58,205 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-18
+2020-10-04 18:22:58,214 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-9
+2020-10-04 18:22:58,214 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-04 18:22:58,248 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-1
+2020-10-04 18:22:58,248 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-04 18:22:58,272 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-12
+2020-10-04 18:22:58,272 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-12
+2020-10-04 18:22:58,274 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-2
+2020-10-04 18:22:58,274 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-04 18:22:58,294 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-10
+2020-10-04 18:22:58,294 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-04 18:22:58,299 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-15
+2020-10-04 18:22:58,300 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-15
+2020-10-04 18:22:58,333 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-16
+2020-10-04 18:22:58,333 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-16
+2020-10-04 18:22:58,357 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-3
+2020-10-04 18:22:58,358 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-04 18:22:58,369 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-7
+2020-10-04 18:22:58,369 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-04 18:22:58,387 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-11
+2020-10-04 18:22:58,387 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-11
+2020-10-04 18:22:58,387 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-04 18:22:58,388 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-10-04 18:25:24,285 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-04 18:25:24,290 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-04 18:25:24,292 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-10-04 18:25:24,925 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-04 18:25:24,925 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group JMeter Users.
+2020-10-04 18:25:24,925 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-04 18:25:24,925 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2020-10-04 18:25:24,926 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-04 18:25:24,932 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-04 18:25:24,932 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-04 18:25:24,977 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-04 18:25:25,025 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-04 18:25:25,076 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-04 18:25:25,126 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-04 18:25:25,176 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-04 18:25:25,225 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-04 18:25:25,275 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-04 18:25:25,326 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-04 18:25:25,376 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-04 18:25:25,427 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-11
+2020-10-04 18:25:25,475 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-12
+2020-10-04 18:25:25,526 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-13
+2020-10-04 18:25:25,576 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-14
+2020-10-04 18:25:25,629 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-15
+2020-10-04 18:25:25,676 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-16
+2020-10-04 18:25:25,727 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-17
+2020-10-04 18:25:25,779 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-18
+2020-10-04 18:25:25,826 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-19
+2020-10-04 18:25:25,876 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-20
+2020-10-04 18:25:32,464 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-4
+2020-10-04 18:25:32,465 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-04 18:25:33,010 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-9
+2020-10-04 18:25:33,010 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-04 18:25:33,080 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-1
+2020-10-04 18:25:33,080 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-04 18:25:33,156 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-6
+2020-10-04 18:25:33,156 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-04 18:25:33,201 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-5
+2020-10-04 18:25:33,201 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-04 18:25:33,222 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-2
+2020-10-04 18:25:33,222 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-04 18:25:33,227 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-8
+2020-10-04 18:25:33,227 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-04 18:25:33,228 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-10
+2020-10-04 18:25:33,228 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-04 18:25:33,296 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-3
+2020-10-04 18:25:33,296 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-04 18:25:33,311 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-20
+2020-10-04 18:25:33,311 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-20
+2020-10-04 18:25:33,351 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-18
+2020-10-04 18:25:33,352 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-18
+2020-10-04 18:25:33,380 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-14
+2020-10-04 18:25:33,381 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-14
+2020-10-04 18:25:33,396 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-7
+2020-10-04 18:25:33,396 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-04 18:25:33,537 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-11
+2020-10-04 18:25:33,538 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-11
+2020-10-04 18:25:33,547 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-16
+2020-10-04 18:25:33,547 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-16
+2020-10-04 18:25:33,564 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-17
+2020-10-04 18:25:33,564 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-17
+2020-10-04 18:25:33,577 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-13
+2020-10-04 18:25:33,577 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-13
+2020-10-04 18:25:33,593 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-15
+2020-10-04 18:25:33,594 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-15
+2020-10-04 18:25:33,627 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-19
+2020-10-04 18:25:33,627 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-19
+2020-10-04 18:25:33,682 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-12
+2020-10-04 18:25:33,682 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-12
+2020-10-04 18:25:33,682 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-04 18:25:33,683 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-10-04 18:29:00,961 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-04 18:29:00,964 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-04 18:29:00,965 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-10-04 18:29:01,518 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-04 18:29:01,518 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group JMeter Users.
+2020-10-04 18:29:01,518 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-04 18:29:01,519 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2020-10-04 18:29:01,519 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-04 18:29:01,524 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-04 18:29:01,524 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-04 18:29:01,570 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-04 18:29:01,621 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-04 18:29:01,670 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-04 18:29:01,722 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-04 18:29:01,769 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-04 18:29:01,821 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-04 18:29:01,874 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-04 18:29:01,922 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-04 18:29:01,970 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-04 18:29:02,023 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-11
+2020-10-04 18:29:02,074 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-12
+2020-10-04 18:29:02,122 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-13
+2020-10-04 18:29:02,170 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-14
+2020-10-04 18:29:02,222 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-15
+2020-10-04 18:29:02,270 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-16
+2020-10-04 18:29:02,324 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-17
+2020-10-04 18:29:02,370 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-18
+2020-10-04 18:29:02,424 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-19
+2020-10-04 18:29:02,469 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-20
+2020-10-04 18:29:09,741 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-3
+2020-10-04 18:29:09,741 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-04 18:29:09,751 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-5
+2020-10-04 18:29:09,751 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-04 18:29:09,774 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-7
+2020-10-04 18:29:09,774 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-04 18:29:09,774 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-6
+2020-10-04 18:29:09,775 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-04 18:29:10,139 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-1
+2020-10-04 18:29:10,139 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-04 18:29:10,152 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-4
+2020-10-04 18:29:10,152 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-04 18:29:10,252 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-2
+2020-10-04 18:29:10,253 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-04 18:29:10,269 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-14
+2020-10-04 18:29:10,269 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-14
+2020-10-04 18:29:10,315 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-11
+2020-10-04 18:29:10,315 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-11
+2020-10-04 18:29:10,398 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-18
+2020-10-04 18:29:10,398 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-18
+2020-10-04 18:29:10,399 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-20
+2020-10-04 18:29:10,399 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-20
+2020-10-04 18:29:10,402 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-9
+2020-10-04 18:29:10,402 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-04 18:29:10,469 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-17
+2020-10-04 18:29:10,469 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-17
+2020-10-04 18:29:10,475 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-8
+2020-10-04 18:29:10,475 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-04 18:29:10,489 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-12
+2020-10-04 18:29:10,489 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-12
+2020-10-04 18:29:10,503 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-19
+2020-10-04 18:29:10,503 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-19
+2020-10-04 18:29:10,530 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-10
+2020-10-04 18:29:10,530 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-04 18:29:10,537 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-15
+2020-10-04 18:29:10,538 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-15
+2020-10-04 18:29:10,550 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-13
+2020-10-04 18:29:10,550 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-13
+2020-10-04 18:29:10,588 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-16
+2020-10-04 18:29:10,588 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-16
+2020-10-04 18:29:10,588 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-04 18:29:10,588 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-10-04 18:29:44,715 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-04 18:29:44,738 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-04 18:29:44,748 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-10-04 18:29:45,400 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-04 18:29:45,400 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group JMeter Users.
+2020-10-04 18:29:45,400 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-04 18:29:45,400 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2020-10-04 18:29:45,401 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-04 18:29:45,406 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-04 18:29:45,406 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-04 18:29:45,450 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-04 18:29:45,505 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-04 18:29:45,551 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-04 18:29:45,601 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-04 18:29:45,650 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-04 18:29:45,705 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-04 18:29:45,752 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-04 18:29:45,805 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-04 18:29:45,850 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-04 18:29:45,901 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-11
+2020-10-04 18:29:45,951 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-12
+2020-10-04 18:29:46,001 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-13
+2020-10-04 18:29:46,050 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-14
+2020-10-04 18:29:46,101 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-15
+2020-10-04 18:29:46,151 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-16
+2020-10-04 18:29:46,200 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-17
+2020-10-04 18:29:46,252 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-18
+2020-10-04 18:29:46,301 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-19
+2020-10-04 18:29:46,350 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-20
+2020-10-04 18:29:59,625 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-3
+2020-10-04 18:29:59,626 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-04 18:29:59,922 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-6
+2020-10-04 18:29:59,922 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-04 18:30:00,582 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-1
+2020-10-04 18:30:00,582 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-7
+2020-10-04 18:30:00,582 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-04 18:30:00,582 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-04 18:30:00,867 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-16
+2020-10-04 18:30:00,867 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-16
+2020-10-04 18:30:00,943 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-8
+2020-10-04 18:30:00,943 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-13
+2020-10-04 18:30:00,943 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-04 18:30:00,943 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-13
+2020-10-04 18:30:01,028 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-2
+2020-10-04 18:30:01,028 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-04 18:30:01,029 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-9
+2020-10-04 18:30:01,030 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-04 18:30:01,218 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-10
+2020-10-04 18:30:01,218 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-04 18:30:01,325 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-12
+2020-10-04 18:30:01,325 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-12
+2020-10-04 18:30:01,351 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-15
+2020-10-04 18:30:01,351 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-15
+2020-10-04 18:30:01,409 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-18
+2020-10-04 18:30:01,409 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-4
+2020-10-04 18:30:01,409 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-18
+2020-10-04 18:30:01,409 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-04 18:30:01,461 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-19
+2020-10-04 18:30:01,461 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-19
+2020-10-04 18:30:01,593 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-17
+2020-10-04 18:30:01,593 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-17
+2020-10-04 18:30:01,593 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-5
+2020-10-04 18:30:01,594 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-04 18:30:01,660 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-11
+2020-10-04 18:30:01,661 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-11
+2020-10-04 18:30:01,741 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-20
+2020-10-04 18:30:01,741 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-20
+2020-10-04 18:30:01,903 INFO o.a.j.t.JMeterThread: Thread is done: JMeter Users 1-14
+2020-10-04 18:30:01,903 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-14
+2020-10-04 18:30:01,903 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-04 18:30:01,903 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

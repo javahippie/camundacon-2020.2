@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: demo
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: scrapsafe
+    driver-class-name: org.postgresql.Driver
